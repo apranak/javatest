@@ -15,8 +15,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo '${env.BUILD_NUMBER}'
-                echo '${env.BUILD_URL}'
+                echo "${env.BUILD_NUMBER}"
+                echo "${env.BUILD_URL}"
             
             
             }
